@@ -19,6 +19,7 @@ After cloning the repository open the directory and run the following command in
 Inside the config folder open the **config.json** file
 
 1. In the development configuration, add your mysql username, password and a database name
+    
     `
 
         "development": {
@@ -28,7 +29,9 @@ Inside the config folder open the **config.json** file
         "host": "127.0.0.1",
         "dialect": "mysql",
         "logging": false
-        }`
+        }
+        
+    `
 2. Run this command to create a database `npx sequelize db:create`
 3. To run the migration use the command `npx sequelize db:migrate`
 
